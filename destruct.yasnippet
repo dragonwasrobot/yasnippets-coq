@@ -1,11 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: Peter Urbak <peter@dragonwasrobot.com>
-# key: Lem
-# group: propositions
-# name: Lemma
+# key: des
+# group: tactics
+# name: destruct
 # --
-Lemma $1 :
-			$2.
-Proof.
-  $0
-Qed.
+destruct $1 as [ $2 ].

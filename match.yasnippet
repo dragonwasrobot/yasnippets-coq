@@ -1,11 +1,9 @@
 # -*- mode: snippet -*-
 # contributor: Peter Urbak <peter@dragonwasrobot.com>
-# key: Lem
-# group: propositions
-# name: Lemma
+# key: match
+# group: misc
+# name: match
 # --
-Lemma $1 :
-			$2.
-Proof.
-  $0
-Qed.
+match $1 with
+  | $2 =>
+end
