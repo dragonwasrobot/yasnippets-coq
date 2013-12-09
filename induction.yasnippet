@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: Peter Urbak <peter@dragonwasrobot.com>
-# key: des
+# key: ind
 # group: tactics
-# name: destruct
+# name: induction
 # --
-destruct $1 as [ $0 ].
+induction ${1:enumerate} as [ | $1' IH_$1' ].$0
