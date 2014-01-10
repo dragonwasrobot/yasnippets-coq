@@ -1,8 +1,12 @@
 # -*- mode: snippet -*-
 # contributor: Peter Urbak <peter@dragonwasrobot.com>
-# key: Axi
+# key: Rem
 # group: propositions
-# name: Axiom
+# name: Remark
+# expand-env: ((yas-indent-line 'fixed))
 # --
-Axiom $1 :
-  $0.
+Remark $1 :
+  $2.
+Proof.
+  $0
+Qed.
