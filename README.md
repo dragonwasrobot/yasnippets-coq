@@ -8,13 +8,6 @@ whatever you may find of interest in this project.
 
 Pull requests are more than welcome.
 
-## General
-- **Author:** Peter Urbak, peter@dragonwasrobot.com
-- **Created:** 2013-12-07
-- **Last Modified:** 2014-01-10
-- **URL:** https://github.com/dragonwasrobot/yasnippet-coq
-- **License:** MIT License
-
 ## Install
 
 In order to use these snippets you need: Emacs, YASnippet and Coq mode. Having
